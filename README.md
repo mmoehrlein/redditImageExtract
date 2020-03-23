@@ -8,9 +8,16 @@
 ### 🏠 [Homepage](https://github.com/mmoehrlein/redditImageExtract)
 
 ## Install
-
+install from npm repository:
 ```sh
-npm install -g
+npm i -g reddit-image-extract 
+```
+
+clone locally and install:
+```sh
+git clone https://github.com/mmoehrlein/redditImageExtract
+cd redditImageExtract
+npm i -g
 ```
 
 ## Usage
