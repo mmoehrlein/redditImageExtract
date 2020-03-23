@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/mmoehrlein/latest-github-tag/compare/v0.0.3...v0.0.4) (2020-03-23)
+
+
+### Features
+
+* **README:** update install instructions ([3b7ba72](https://github.com/mmoehrlein/latest-github-tag/commit/3b7ba729663beb98090bfe7cb7cdeea1651ab4b7))
+
 ### [0.0.3](https://github.com/mmoehrlein/latest-github-tag/compare/v0.0.2...v0.0.3) (2020-03-23)
 
 
