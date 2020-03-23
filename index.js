@@ -1,4 +1,26 @@
 #!/bin/node
+/**
+ * Initialize logger and config
+ */
+require('./lib').initAll();
+
+/**
+ * Get configured logger and config
+ *
+ * @type {winston.Logger} logger
+ * @type {Object} conf
+ */
+const logger = require('winston').loggers.get('standard');
+const conf = require('nconf');
+
+/**
+ * Default config can be added
+ */
+conf.defaults({
+	max: 100,
+	timeout: 5000,
+	dest: 'images'
+});
 
 const fs = require('fs');
 const a = require('axios');
