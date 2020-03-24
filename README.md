@@ -23,7 +23,7 @@ npm i -g
 ## Usage
 
 ```sh
-reddit-image-extract
+redditImageExtract
 ```
 
 ### config
@@ -33,7 +33,7 @@ The hirarchy is: commandline arguments > environment variables > defaults
 
 The following command will pull images from /r/bar 
 ```sh
-sub=foo; reddit-image-extract --sub bar 
+sub=foo; redditImageExtract --sub bar 
 ``` 
 
 ## Available Variables
